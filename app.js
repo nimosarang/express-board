@@ -9,7 +9,7 @@ app.set("views", __dirname + "/views");
 app.get("/", (req, res) => {
   res.render("home", {
     title: "안녕하세요",
-    message: "만나서 반갑습니다!",
+    message: "통신에 성공했어요!",
     body: "이것은 express로 만드는 게시판 프로젝트입니다.",
   });
 });
