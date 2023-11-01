@@ -8,7 +8,7 @@ app.set("views", __dirname + "/views");
 
 app.get("/", (req, res) => {
   res.render("home", {
-    title: "안녕하세요~",
+    title: "Hello",
     message: "통신에 성공했어요!",
     body: "express로 만드는 게시판 프로젝트입니다.",
   });
